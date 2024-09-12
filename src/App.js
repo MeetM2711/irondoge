@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import Header from './components/Header.jsx';
 import Main from './pages/main.jsx';
-import Particles from "react-particles";
+// import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <Particles
+      {/* <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -66,7 +66,7 @@ function App() {
           },
           detectRetina: true,
         }}
-      ></Particles>
+      ></Particles> */}
 
       <Header />
       <Main />
